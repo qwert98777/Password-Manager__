@@ -6,36 +6,10 @@
 ## Описание
 Консольное приложение для безопасного хранения и управления паролями.
 
-## Структура 
-Password-Manager/
-│
-├── main.py
-│
-├── models/
-│   ├── __init__.py
-│   └── password_record.py
-│
-├── views/
-│   ├── __init__.py
-│   └── console_view.py
-│
-├── controllers/
-│   ├── __init__.py
-│   └── password_controller.py
-│
-├── utils/
-│   ├── __init__.py
-│   └── password_generator.py
-│
-├── tests/
-│   ├── __init__.py
-│   └── test_app.py
-│
-├── data/
-│   └── passwords.json
-│
-├── .gitignore
-└── README.md
+## Архитектура (MVC)
+- **Models** - данные и бизнес-логика
+- **Views** - пользовательский интерфейс
+- **Controllers** - управление потоками данных
 
 ## Функционал
 - Добавление паролей с валидацией
